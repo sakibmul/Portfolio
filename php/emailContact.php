@@ -11,7 +11,7 @@ if (isset($_POST['email']) && $_POST['email'] != "") {
    $userEmail = $_POST['email'];
    $userMessage = $_POST['message'];
 
-   $to = "zakmog@outlook.com";
+   $to = ""; // Enter Your own email address here!
    $body = "";
 
    $body .="First Name: " . $userFirstName . "\r\n";
